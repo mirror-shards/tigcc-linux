@@ -2,7 +2,7 @@
  *  stuffs.
  *  Copyright (C) 2001 John David Ratliff
  *  Copyright (C) 2001-2002 Romain Liévin
- *  Copyright (C) 2002-2006 Kevin Kofler
+ *  Copyright (C) 2002-2011 Kevin Kofler
  *  Modified by Nils Gesbert, 2003
  *
  *  This program is free software; you can redistribute it and/or modify
@@ -678,7 +678,7 @@ void a68k(char *file)
     add_to_file_array(tmpfile, obj_files);
 
     if (allrelocs) argv[i++] = "-a";
-    if (optreturns) argv[i++] = "-d";
+    if (optreturns || debug) argv[i++] = "-d";
     if (quiet) argv[i++] = "-q";
     if (a68k_args) {
       strcpy (a68kargtokens, a68k_args);

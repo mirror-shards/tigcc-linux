@@ -1,5 +1,8 @@
 Changelog for TIGCC-FrontEnd For Linux
 
+- 2011-06-24, version 1.3.3 (Kevin Kofler)
+        * Pass -d to A68k when compiling with debugging information.
+
 - 2006-07-16, version 1.3.2 (Kevin Kofler)
         * Pass --no-names to ar-tigcc to match Win32 tigcc.exe behavior.
         * Use --outputbin-main-only, not --outputbin, when linking a PPG.

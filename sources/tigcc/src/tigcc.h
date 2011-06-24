@@ -23,7 +23,7 @@
 #ifndef _TIGCC_H
 #define _TIGCC_H
 
-#define VERSION "1.3.2"
+#define VERSION "1.3.3"
 #define TIGCC_VERSION "0.96 Beta 9 r1"
 
 /* global enumerations */
